@@ -151,7 +151,8 @@ button {
 
 /* Completed */
 .tasks-list#completed-tasks .task-name {
-  text-decoration: line-through; color: #888;
+  text-decoration: line-through; 
+  color: #888;
 }
 
 /* Edit Task */
