@@ -12,6 +12,10 @@
   text-align: right;
 }
 
+.hidden {
+  display: none;
+}
+
 .eisenhower-matrix .eisnhower-matrix-img {
   width: 100%;
 }
@@ -71,7 +75,7 @@ button {
 }
 
 /* Heading */
-.heading-3,
+.heading-2,
 .new-task-label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -100,7 +104,7 @@ button {
 }
 
 /* New Task */
-.new-task-label[for="new-task"] {
+.new-task-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -151,7 +155,7 @@ button {
 
 /* Completed */
 .tasks-list#completed-tasks .task-name {
-  text-decoration: line-through; 
+  text-decoration: line-through;
   color: #888;
 }
 
