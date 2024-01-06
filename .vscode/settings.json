@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "aeschli.vscode-css-formatter",
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": false,
+  "editor.tabSize": 2,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
